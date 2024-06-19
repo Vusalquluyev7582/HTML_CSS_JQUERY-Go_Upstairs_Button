@@ -1,0 +1,32 @@
+body {
+    height: 2500px;
+    background-color: darkorange;
+}
+
+a {
+    width: 300px;
+    height: 300px;
+    color: white;
+    /*background-color: black;*/
+    /*display: block;*/
+    background-image: url("./images/img\ -\ 1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: none;
+    text-decoration: none;
+    /* font-size: 100px; */
+    text-align: center;
+    /* line-height: 130px; */
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transform: rotate(180deg);
+    transition: all .5s ease;
+}
+
+a:hover {
+    /*transform: none;*/
+    transform: rotate(0deg);
+}
